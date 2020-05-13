@@ -9,10 +9,17 @@
     "bootstrap": "^4.5.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
+<<<<<<< HEAD
     "react-bootstrap-icons": "^1.0.2-alpha3",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1"
+=======
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "semantic-ui-react": "^0.88.2"
+>>>>>>> jhoanse
   },
   "scripts": {
     "start": "react-scripts start",
