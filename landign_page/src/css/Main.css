@@ -1,0 +1,16 @@
+#content{
+    width: 50%;
+    padding-top: 10%;
+}
+
+#textIntro {
+    text-align: center;
+    font-size: 200%;
+    color: #57bcbb;
+}
+
+#btnIntro {
+    
+    width: 30%;
+    height: 10%;
+} 

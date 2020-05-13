@@ -1,24 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React, { useEffect, useState } from 'react';
+import Routes from "./routes";
+import { useHistory } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+ 
 function App() {
+
+  const history = useHistory();
+  const [_, setPath] = useState("");
+
+  window.addEventListener("load", () => {
+    
+    if(window.location.pathname === "/contact"){
+      setPath(window.location.pathname);
+    }
+  });
+
+
+  const checkPath = () => {
+    history.listen((location) => {
+      setPath(location.pathname);
+    });
+  }
+
+
+  useEffect(() => {
+    checkPath();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App container">
+      <Routes />
     </div>
   );
 }
