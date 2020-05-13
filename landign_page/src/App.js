@@ -1,6 +1,6 @@
 import React from 'react';
 import HeaderUser from './components/Header';
-import {Header, Icon, Image } from 'semantic-ui-react'
+
 
 
 function App() {
