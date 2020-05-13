@@ -1,16 +1,25 @@
+#Intro {
+    height: 500px;
+}
+
+#imgIntro {
+    width: 100%;
+    height: 100%;
+}
+
 #content{
     width: 50%;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 #textIntro {
     text-align: center;
     font-size: 200%;
-    color: #57bcbb;
+    color: #156e92;
 }
 
 #btnIntro {
-    
     width: 30%;
     height: 10%;
+    font-size: 110%;
 } 
