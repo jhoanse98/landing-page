@@ -9,7 +9,7 @@
 
 #content{
     width: 50%;
-    padding-top: 5%;
+    margin-top: 5%;
 }
 
 #textIntro {
@@ -23,3 +23,123 @@
     height: 10%;
     font-size: 110%;
 } 
+
+.NewCard img {
+    height: 200px;
+}
+
+.NewCard div {
+    height: 150px;
+}
+
+#MyContact {
+    height: auto;
+}
+
+#MyContact p {
+    font-size: 150%;
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+
+#Benefit {
+    color: white;
+    background: #26969f;
+    padding: 0px 0px 0px 0px !important;
+    border-radius: .25rem .25rem 0 0;
+    height: auto;
+}
+
+#TitleBenefit {
+    height: 20%;
+    padding: 15px;
+}
+
+.detailers-container {
+    background: #22a2ac;
+    padding: 15px;
+    height: 80%;
+}
+
+.detailers-container li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.detailers-container p {
+    width: 85%;
+    font-size: 110%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.detailers-container ul {
+    margin: 0px !important;
+}
+
+.No-pading-left {
+    padding-left: 0px;
+}
+
+.No-pading-rigth {
+    padding-right: 0px;
+}
+
+.item-align {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 15px;
+}
+
+.icon {
+    margin-left: 0px;
+    margin-right: 5px;
+    font-size: 200%;
+}
+
+.BenefitLi {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.CheckBoxIcon {
+    width: 15% !important;
+    font-size: 150%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#AskContainer {
+    color: white;
+    background: rgba(30, 131, 182, 0.7);
+    padding: 0px 0px 0px 0px !important;
+    border-radius: 0 0 .25rem .25rem ;
+    height: auto;
+}
+
+#AskButton {
+    text-align: center;
+    height: 20%;
+}
+
+#Ask {
+    height: 80%;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.btn-primary {
+    background: #27bec3;
+    border-color: #27bec3;
+}
+
+.information {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.information p {
+    padding-top: 20px;
+    text-align: justify;
+    font-size: 130%;
+}

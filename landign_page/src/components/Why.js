@@ -1,13 +1,13 @@
 import React from 'react';
 
 
-function Contact() {
+function Why() {
 
   return (   
     <div>
-        Contact
+        Why
     </div>
   );
 }
 
-export default Contact;
+export default Why;

@@ -1,12 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Routes from "./routes";
 import { useHistory } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
- 
-import React from 'react';
 import HeaderUser from './components/Header';
-
-
+import './App.css'
 
 function App() {
 
@@ -33,10 +29,26 @@ function App() {
   }, []);
 
   return (
-    <div className="App container">
-      <HeaderUser />
-      <Routes />
-    </div>
+    <React.Fragment>
+      <div>
+        <header>
+          <HeaderUser />
+        </header>
+      </div>
+      <div id="MyContainer" className="container">
+        <div className="row flex-xl-nowrap">
+          <main className="bd-content" role="main">
+            <Routes />
+          </main>
+        </div>
+      </div>
+      <footer id="sticky-footer" className="py-4 bg-dark text-white-50">
+        <div className="container text-center">
+          <small>Copyright &copy; Your Website</small>
+        </div>
+      </footer>
+
+    </React.Fragment>
   );
 }
 
