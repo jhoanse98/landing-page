@@ -1,6 +1,7 @@
 {
   "name": "landign_page",
   "version": "0.1.0",
+  "homepage": "http://test.genocol.co/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",

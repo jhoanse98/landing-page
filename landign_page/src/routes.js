@@ -12,11 +12,11 @@ import Why from "./components/Why";
 const Routes = () => (
     <Switch>
         <Route exact path="/" component={Main} />
-        <Route exact path="/contact" component={Contact} />
-        <Route exact path="/services" component={Service} />
-        <Route exact path="/why" component={Why} />
-        <Route exact path="/test" component={Test} />
-        <Route exact path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/services" component={Service} />
+        <Route path="/why" component={Why} />
+        <Route path="/test" component={Test} />
+        <Route path="/about" component={About} />
     </Switch>
 );
 
