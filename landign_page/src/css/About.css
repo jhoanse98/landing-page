@@ -3,6 +3,11 @@
     padding: 20px;
 }
 
+.imgAuto {
+    max-width:100%;
+    height:auto;
+}
+
 .MyContent {
     text-align: center;
     font-size: 110%;
@@ -16,23 +21,6 @@
     height: auto;
 }
 
-.MyContent li {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.MyContent p {
-    font-size: 110%;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.MyContent ul {
+.No-margin {
     margin: 0px !important;
-}
-
-.item-align {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 15px;
 }

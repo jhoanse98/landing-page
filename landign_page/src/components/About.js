@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCheckSquare} from '@fortawesome/free-regular-svg-icons'
+import GenoCOl from '../images/Genocol.png'
 import "../css/About.css"
 
 function About() {
@@ -10,7 +11,7 @@ function About() {
         <React.Fragment>
           <div className="row MyContainer">
             <div className="col-6">
-              <img src=".."></img>
+              <img className="imgAuto" src={GenoCOl}></img>
             </div>
             <div className="col-6">
               <h1 className="title">¿QUIÉNES SOMOS?</h1>
@@ -51,30 +52,30 @@ function About() {
           <div className="row MyContainer">
             <div className="col-6">
               <h1 className="title">VALORES</h1>
-              <ul className="text-lg-left list-unstyled ml-4 MyContent">
+              <ul className="text-lg-left list-unstyled ml-4 MyContent No-margin">
                   <li>
                       <FontAwesomeIcon icon={faCheckSquare} className="item-align CheckBoxIcon"/>
-                      <p>Servicio</p>
+                      <p className="item-align No-margin">Servicio</p>
                   </li>
                   <li>
                       <FontAwesomeIcon icon={faCheckSquare} className="item-align CheckBoxIcon"/>
-                      <p>Eficiencia</p>
+                      <p className="item-align No-margin">Eficiencia</p>
                   </li>
                   <li>
                       <FontAwesomeIcon icon={faCheckSquare} className="item-align CheckBoxIcon"/>
-                      <p>Respeto</p>
+                      <p className="item-align No-margin">Respeto</p>
                   </li>
                   <li>
                       <FontAwesomeIcon icon={faCheckSquare} className="item-align CheckBoxIcon"/>
-                      <p>Liderazgo</p>
+                      <p className="item-align No-margin">Liderazgo</p>
                   </li>
                   <li>
                       <FontAwesomeIcon icon={faCheckSquare} className="item-align CheckBoxIcon"/>
-                      <p>Responsabilidad</p>
+                      <p className="item-align No-margin">Responsabilidad</p>
                   </li>
                   <li>
                       <FontAwesomeIcon icon={faCheckSquare} className="item-align CheckBoxIcon"/>
-                      <p>Honestidad</p>
+                      <p className="item-align No-margin">Honestidad</p>
                   </li>
               </ul>
             </div>

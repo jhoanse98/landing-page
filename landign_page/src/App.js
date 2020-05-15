@@ -4,29 +4,8 @@ import { useHistory } from "react-router-dom";
 import HeaderUser from './components/Header';
 import './App.css'
 
+
 function App() {
-
-  const history = useHistory();
-  const [_, setPath] = useState("");
-
-  window.addEventListener("load", () => {
-    
-    if(window.location.pathname === "/contact"){
-      setPath(window.location.pathname);
-    }
-  });
-
-
-  const checkPath = () => {
-    history.listen((location) => {
-      setPath(location.pathname);
-    });
-  }
-
-
-  useEffect(() => {
-    checkPath();
-  }, []);
 
   return (
     <React.Fragment>

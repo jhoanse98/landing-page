@@ -11,16 +11,6 @@ import "../css/Main.css"
 import { Link, useHistory } from "react-router-dom";
 
 
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("navbar").style.height = "50px";
-  } else {
-    document.getElementById("navbar").style.height = "100px";
-  }
-}
-
 function Main() {
 
     return(
@@ -93,9 +83,9 @@ function Main() {
                 <div className="col-4 No-pading-rigth">
                     <div className="card NewCard">
                         <img className="card-img-top" src={New3} alt="Card image cap"/>
-                        <div className="card-body">
-                            <h5 className="card-title">¿POR QUÉ DEBO HACERME UNA PRUBA?</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div id="largeTitle" className="card-body">
+                            <h5 className="card-title">¿POR QUÉ DEBO HACERME UNA PRUEBA?</h5>
+                            <p className="card-text">Los test genéticos te permiten crear un plan personalizado en colaboración con tu médico para prevenir o detectar multiles enfermedades de índole hereditario e infeccioso en un estadío temprano . . .</p>
                             <a href="/why">Seguir leyendo ></a>
                         </div>
                     </div>

@@ -4,21 +4,21 @@ import Step2 from "../images/TestStep2.png"
 import Step3 from "../images/TestStep3.png"
 import Step4 from "../images/TestStep4.png"
 import Step5 from "../images/TestStep5.png"
-import "../css/Test.css"
+import '../css/Test.css'
 
 function Test() {
 
   return (   
-    <div>
+    <div id="Test">
         <React.Fragment>
           <div className="row justify-content-md-center">
-            <h1 className="title">
+            <h1 id="TestTitle">
               ¿CÓMO LO HACEMOS?
             </h1>
           </div>
           <div className="row MyContainer">
             <div className="col-6">
-              <img src={Step1}></img>
+              <img className="imgAuto" src={Step1}></img>
             </div>
             <div className="col-6">
               <h1 className="title">1. TOMA DE MUESTRAS Y ENVÍO DE KITS</h1>
@@ -43,12 +43,12 @@ function Test() {
               </p>
             </div>
             <div className="col-6">
-              <img src={Step2}></img>
+              <img className="imgAuto" src={Step2}></img>
             </div>
           </div>
           <div className="row MyContainer">
             <div className="col-6">
-              <img src={Step3}></img>
+              <img className="imgAuto" src={Step3}></img>
             </div>
             <div className="col-6">
               <h1 className="title">3. PROCESAMIENTO</h1>
@@ -69,12 +69,12 @@ function Test() {
               </p>
             </div>
             <div className="col-6">
-              <img src={Step4}></img>
+              <img className="imgAuto" src={Step4}></img>
             </div>
           </div>
           <div className="row MyContainer">
             <div className="col-6">
-              <img src={Step5}></img>
+              <img className="imgAuto" src={Step5}></img>
             </div>
             <div className="col-6">
               <h1 className="title">5. ANÁLISIS CLÍNICO</h1>

@@ -12,7 +12,7 @@ function Contact() {
 
           <div className="row MyContainer">
             <div className="col-6">
-              <img src={Map}></img>
+              <img className="imgAuto" src={Map}></img>
             </div>
             <div id="Where" className="col-6">
               <h1 className="title">¿DÓNDE TRABAJAMOS?</h1>

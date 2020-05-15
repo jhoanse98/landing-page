@@ -128,7 +128,7 @@
     text-align: center;
 }
 
-.btn-primary {
+#AskButton a {
     background: #27bec3;
     border-color: #27bec3;
 }
@@ -142,4 +142,8 @@
     padding-top: 20px;
     text-align: justify;
     font-size: 130%;
+}
+
+#largeTitle {
+    height: 200px;
 }

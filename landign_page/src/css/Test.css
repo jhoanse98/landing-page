@@ -1,28 +1,10 @@
-.title {
+#TestTitle {
     text-align: center;
     padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 
-.MyContent {
-    text-align: center;
-    font-size: 110%;
-}
-
-.MyContainer {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 100px;
-    width: 100%;
-    height: auto;
-}
-
-.MyContainer img {
-    width: 100%;
-    height: auto;
-}
-
-.MyContent p {
-    font-size: 110%;
-    display: inline-block;
-    vertical-align: middle;
+#Test img {
+    transform: scale(0.6);
 }
