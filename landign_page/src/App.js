@@ -23,7 +23,7 @@ function App() {
       </div>
       <footer id="sticky-footer" className="py-4 bg-dark text-white-50">
         <div className="container text-center">
-          <small>Copyright &copy; Your Website</small>
+          <small>LA GENÉTICA ES DE TODOS Y PARA TODOS</small>
         </div>
       </footer>
 

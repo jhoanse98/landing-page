@@ -73,7 +73,7 @@ function Main() {
                         <div className="card-body">
                             <h5 className="card-title">LA EXPERIENCIA CON COLORS</h5>
                             <p className="card-text">Análisis Exhaustivo de 30 Genes. Color analiza un panel de 30 genes que incluye BRCA1 y BRCA2.</p>
-                            <a href="/color-experience">Seguir leyendo ></a>
+                            <a href="/services">Seguir leyendo ></a>
                         </div>
                     </div>
                 </div>

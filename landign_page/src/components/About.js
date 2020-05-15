@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCheckSquare} from '@fortawesome/free-regular-svg-icons'
 import GenoCOl from '../images/Genocol.png'
+import OBox from '../images/official-box-photo_color-genomics_3d_box_with-sleeve_v1.png'
 import "../css/About.css"
 
 function About() {
@@ -78,6 +79,9 @@ function About() {
                       <p className="item-align No-margin">Honestidad</p>
                   </li>
               </ul>
+            </div>
+            <div className="col-6">
+              <img id="boxAbout" className="imgAuto" src={OBox}></img>
             </div>
           </div>
         </React.Fragment>

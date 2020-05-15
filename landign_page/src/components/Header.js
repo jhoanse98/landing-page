@@ -45,7 +45,7 @@ class HeaderExampleUsersIcon extends React.Component {
                             <a className="nav-link active" href="/about">¿QUIÉNES SOMOS?</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="/color-experience">LA EXPERIENCIA COLOR</a>
+                            <a className="nav-link active" href="/services">LA EXPERIENCIA COLOR</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link active" href="/why">¿POR QUE HACERME UNA PRUEBA GENÉTICA?</a>

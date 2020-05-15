@@ -9,7 +9,6 @@
 }
 
 .MyContent {
-    text-align: center;
     font-size: 110%;
 }
 
@@ -23,4 +22,8 @@
 
 .No-margin {
     margin: 0px !important;
+}
+
+#boxAbout {
+    transform: scale(2.5);
 }
