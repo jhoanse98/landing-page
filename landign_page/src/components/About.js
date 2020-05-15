@@ -53,29 +53,23 @@ function About() {
           <div className="row MyContainer">
             <div className="col-6">
               <h1 className="title">VALORES</h1>
-              <ul className="text-lg-left list-unstyled ml-4 MyContent No-margin">
+              <ul className="text-lg-left ml-4 MyContent No-margin">
                   <li>
-                      <FontAwesomeIcon icon={faCheckSquare} className="item-align CheckBoxIcon"/>
                       <p className="item-align No-margin">Servicio</p>
                   </li>
                   <li>
-                      <FontAwesomeIcon icon={faCheckSquare} className="item-align CheckBoxIcon"/>
                       <p className="item-align No-margin">Eficiencia</p>
                   </li>
                   <li>
-                      <FontAwesomeIcon icon={faCheckSquare} className="item-align CheckBoxIcon"/>
                       <p className="item-align No-margin">Respeto</p>
                   </li>
                   <li>
-                      <FontAwesomeIcon icon={faCheckSquare} className="item-align CheckBoxIcon"/>
                       <p className="item-align No-margin">Liderazgo</p>
                   </li>
                   <li>
-                      <FontAwesomeIcon icon={faCheckSquare} className="item-align CheckBoxIcon"/>
                       <p className="item-align No-margin">Responsabilidad</p>
                   </li>
                   <li>
-                      <FontAwesomeIcon icon={faCheckSquare} className="item-align CheckBoxIcon"/>
                       <p className="item-align No-margin">Honestidad</p>
                   </li>
               </ul>

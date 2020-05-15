@@ -19,7 +19,7 @@ function Main() {
             <div id="Intro" className="row card">
                 <img id="imgIntro" className="card-img" src={ImageIntro} alt="Card image"/>
                 <div id="content" className="card-img-overlay text-center">
-                    <p id="textIntro">Entienda su riesgo de cáncer hereditario, con solo una muestra de saliva puede entender si este en riesgo de cáncer hereditario de mama y ovarios.</p>
+                    <p id="textIntro">Entienda su riesgo de cáncer hereditario, con solo una muestra de saliva puede entender si está en riesgo de cáncer hereditario de mama y ovarios.</p>
                     <a id="btnIntro" className="btn btn-dark" href="/test" role="button">Conozca más</a>
                 </div>
             </div>
@@ -71,8 +71,8 @@ function Main() {
                     <div className="card NewCard">
                         <img className="card-img-top" src={New2} alt="Card image cap"/>
                         <div className="card-body">
-                            <h5 className="card-title">LA EXPERIENCIA CON COLORS</h5>
-                            <p className="card-text">Análisis Exhaustivo de 30 Genes. Color analiza un panel de 30 genes que incluye BRCA1 y BRCA2.</p>
+                            <h5 className="card-title">NUESTRO PORTAFOLIO</h5>
+                            <p className="card-text">Ofrecemos una alta gama de estudio con tecnologias de última generación y un asesoramiento personalizado por un grupo interdisciplinar.</p>
                             <a href="/services">Seguir leyendo ></a>
                         </div>
                     </div>
@@ -84,8 +84,8 @@ function Main() {
                     <div className="card NewCard">
                         <img className="card-img-top" src={New3} alt="Card image cap"/>
                         <div id="largeTitle" className="card-body">
-                            <h5 className="card-title">¿POR QUÉ DEBO HACERME UNA PRUEBA?</h5>
-                            <p className="card-text">Los test genéticos te permiten crear un plan personalizado en colaboración con tu médico para prevenir o detectar multiles enfermedades de índole hereditario e infeccioso en un estadío temprano . . .</p>
+                            <h5 className="card-title">¿POR QUÉ DEBO HACERME UNA PRUEBA GENÉTICA?</h5>
+                            <p className="card-text">Los test genéticos te permiten crear un plan personalizado en colaboración con tu médico para prevenir o detectar múltiples enfermedades de índole hereditario e infeccioso en un estudío temprano . . .</p>
                             <a href="/why">Seguir leyendo ></a>
                         </div>
                     </div>
@@ -96,7 +96,7 @@ function Main() {
                         <h2>¿TIENE DUDAS Y PREGUNTAS?</h2>
                     </div>
                     <div id="AskButton">
-                        <a className="btn btn-primary" href="/contact" role="button">Contactenos</a>
+                        <a className="btn btn-primary" href="/contact" role="button">Contáctenos</a>
                     </div>
                 </div>
 
@@ -104,7 +104,7 @@ function Main() {
 
                     <div className="card-body contact text-center h-100">
 
-                        <h2 className="my-4 pb-2">CONTACTENOS</h2>
+                        <h2 className="my-4 pb-2">CONTÁCTENOS</h2>
                         <ul className="text-lg-left list-unstyled ml-4">
                             <li>
                                 <FontAwesomeIcon icon={faMapMarkerAlt} className="item-align icon"/>

@@ -17,7 +17,7 @@ function Contact() {
             <div id="Where" className="col-6">
               <h1 className="title">¿DÓNDE TRABAJAMOS?</h1>
               <p className="MyContent">
-                GENO-COL a expandido su acción en Colombia a través de convenios
+                GENO-COL ha expandido su acción en Colombia a través de convenios
                 locales creando una gran red de apoyo, y programas de diagnóstico
                 exitosos por todo el país. Con procesos meticulosos y bien establecidos
                 en gran parte del territorio, la investigación genética del cáncer ha roto
@@ -35,8 +35,8 @@ function Contact() {
             <div class="col-4">
               <FontAwesomeIcon icon={faPhone} className="icon"/>
               <p>+57 310 6061877</p>
-              <p class="mb-0">+57 320 5744230</p>
-              <p class="mb-0">+57 313 3444492</p>
+              <p >+57 320 5744230</p>
+              <p >+57 313 3444492</p>
             </div>
             <div class="col-4">
               <FontAwesomeIcon icon={faEnvelope} className="icon"/>
