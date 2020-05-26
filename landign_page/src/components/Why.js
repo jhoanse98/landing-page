@@ -14,7 +14,7 @@ function Why() {
               <div className="col-12">
                 <h1 id="left" className="title">¿POR QUE HACERME UNA PRUEBA GENÉTICA?</h1>
                 <p className="Mycontent">
-                  Los test genéticos te permiten crear un plan personalizado en colaboración con tu médico para prevenir o detectar múltiples enfermedades de índole hereditario e infeccioso en un estudío temprano más facíl de tratar.
+                  Los test genéticos te permiten crear un plan personalizado en colaboración con tu médico para prevenir o detectar múltiples enfermedades de índole hereditario e infeccioso en un estudio temprano más facíl de tratar.
                 </p>
               </div>
             </div>

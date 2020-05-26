@@ -29,7 +29,7 @@ class HeaderExampleUsersIcon extends React.Component {
     
     render () {
         return (
-            <nav id="navbar" className="navbar fixed-top navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+            <nav id="navbar" className="navbar align-items-center fixed-top navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
                 <a id="logo" className={`navbar-brand col-3 ${this.state.isScroll ? "scaleImg" : ""}`} href="/">
                     <img id="imgLogo" src={Logo}/>
                 </a>

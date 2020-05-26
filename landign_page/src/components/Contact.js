@@ -26,22 +26,25 @@ function Contact() {
             </div>
           </div>
 
-          <div class="row text-center">
-            <div class="col-4">
+          <div className="row text-center">
+            <div className="col-4">
               <FontAwesomeIcon icon={faMapMarkerAlt} className="icon"/>
-              <p>CRA. 6 #72-34 ED. IMAT</p>
-              <p class="mb-0">MONTERIA - COLOMBIA</p>
+              <p className="mb-0 mt-3">CRA. 6 No. 72-34 ED. IMAT</p>
+              <p >MONTERIA - COLOMBIA</p>
+              <p className="mb-0">CALLE 16 No. 15-42</p>
+              <p className="mb-0">CONSULTORIO 303<br/>UNIDAD MÉDICA SAN JOSE</p>
+              <p>VALLEDUPAR - COLOMBIA</p>
             </div>
-            <div class="col-4">
+            <div className="col-4">
               <FontAwesomeIcon icon={faPhone} className="icon"/>
-              <p>+57 310 6061877</p>
-              <p >+57 320 5744230</p>
+              <p className="mb-0 mt-3">+57 310 6061877</p>
+              <p className="mb-0">+57 320 5744230</p>
               <p >+57 313 3444492</p>
             </div>
-            <div class="col-4">
+            <div className="col-4">
               <FontAwesomeIcon icon={faEnvelope} className="icon"/>
-              <p>genocolsas@gmail.com</p>
-              <p class="mb-0">comercialgenocol@gmail.com</p>
+              <p className="mb-0 mt-3">genocolsas@gmail.com</p>
+              <p >comercialgenocol@gmail.com</p>
             </div>
           </div>
         </React.Fragment>

@@ -9,7 +9,7 @@
 
 #content{
     width: 50%;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 #textIntro {
@@ -29,7 +29,7 @@
 }
 
 .NewCard div {
-    height: 150px;
+    height: 190px;
 }
 
 #MyContact {
@@ -37,7 +37,7 @@
 }
 
 #MyContact p {
-    font-size: 150%;
+    font-size: 130%;
     max-width: 100%;
     overflow-wrap: break-word;
 }
@@ -144,6 +144,11 @@
     font-size: 130%;
 }
 
-#largeTitle {
-    height: 200px;
+#summary {
+    height: 50%;
+    overflow: hidden;
+}
+
+#large-text {
+    font-size: 90% !important;
 }

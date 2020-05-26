@@ -116,8 +116,8 @@ function ColorExperience() {
             </div>
           </div>
 
-          <div class="row MyContainer justify-content-between">
-            <div class="col">
+          <div className="row MyContainer justify-content-between">
+            <div className="col">
               <p className="MyContent">
                 <b>LEUCEMIA LINFOBLÁSTICA AGUDA B (LLA-B)</b>
                 <br/>BCR/ABL, t(9;22)(q34;q11)
@@ -128,7 +128,7 @@ function ColorExperience() {
                 <br/>RUNX, iAMP 21
               </p>
             </div>
-            <div class="col">
+            <div className="col">
               <p className="MyContent">
                 <b>LEUCEMIA LINFOBLASTICA AGUDA T (LLA-T)</b>
                 <br/>SIL-TAL1, t(1p32)
@@ -140,7 +140,7 @@ function ColorExperience() {
           </div>
 
           <div className="row MyContainer justify-content-center">
-            <div class="col align-self-center">
+            <div className="col align-self-center">
                 <p className="MyContent">
                   <b>LINFOMA MALT</b>
                   <br/>MALT1, (18q21)
@@ -150,8 +150,8 @@ function ColorExperience() {
               </div>
           </div>
 
-          <div class="row MyContainer justify-content-between">
-            <div class="col">
+          <div className="row MyContainer justify-content-between">
+            <div className="col">
               <p className="MyContent">
                 <b>LINFOMA DIFUSO DE CÉLULAS GRANDES B (LDCG-B)</b>
                 <br/>IGH (14q32)
@@ -160,7 +160,7 @@ function ColorExperience() {
                 <br/>IGH/BCL2, t(14;18)(q32;q21)
               </p>
             </div>
-            <div class="col">
+            <div className="col">
               <p className="MyContent">
                 <b>LINFOMA FOLICULAR</b>
                 <br/>IGH/BCL2, t(14;18)(q32;q21)
@@ -209,7 +209,7 @@ function ColorExperience() {
           </div>
 
           <div className="row MyContainer justify-content-center">
-            <div class="col align-self-center">
+            <div className="col align-self-center">
                 <p className="MyContent">
                   <b>MIELOMA MÚLTIPLE</b>
                   <br/>RB1, del(13q14)
@@ -405,7 +405,7 @@ function ColorExperience() {
         
         <div className="MyContainer">
           <h2 id="left" className="title">
-            Panel multigénico: 30 genes
+            Panel multigénico para cáncer hereditario: 30 genes
           </h2>
         </div>
 

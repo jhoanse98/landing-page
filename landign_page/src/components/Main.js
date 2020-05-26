@@ -19,7 +19,7 @@ function Main() {
             <div id="Intro" className="row card">
                 <img id="imgIntro" className="card-img" src={ImageIntro} alt="Card image"/>
                 <div id="content" className="card-img-overlay text-center">
-                    <p id="textIntro">Entienda su riesgo de cáncer hereditario, con solo una muestra de saliva puede entender si está en riesgo de cáncer hereditario de mama y ovarios.</p>
+                    <p id="textIntro">Entienda su riesgo de cáncer hereditario con solo una muestra de saliva o sangre.</p>
                     <a id="btnIntro" className="btn btn-dark" href="/test" role="button">Conozca más</a>
                 </div>
             </div>
@@ -37,7 +37,7 @@ function Main() {
                         <img className="card-img-top" src={New1} alt="Card image cap"/>
                         <div className="card-body">
                             <h5 className="card-title">DETECCIÓN TEMPRANA</h5>
-                            <p className="card-text">La detección temprana mejora la probabilidad de supervivencia de los pacientes. Cánceres como el de seno, ovarios, colorectal y de pancreas.</p>
+                            <p id="summary" className="card-text">La detección temprana mejora la probabilidad de supervivencia de los pacientes en algunos casos hasta de un 100%, al activar el panel Color incursiona en la ruta más efectiva de seguimiento, tratamiento y control de la enfermedad.</p>
                             <a href="/test">Seguir leyendo ></a>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ function Main() {
                         <img className="card-img-top" src={New2} alt="Card image cap"/>
                         <div className="card-body">
                             <h5 className="card-title">NUESTRO PORTAFOLIO</h5>
-                            <p className="card-text">Ofrecemos una alta gama de estudio con tecnologias de última generación y un asesoramiento personalizado por un grupo interdisciplinar.</p>
+                            <p id="summary" className="card-text">Ofrecemos una alta gama de estudio con tecnologias de última generación y un asesoramiento personalizado por un grupo interdisciplinar.</p>
                             <a href="/services">Seguir leyendo ></a>
                         </div>
                     </div>
@@ -83,9 +83,9 @@ function Main() {
                 <div className="col-4 No-pading-rigth">
                     <div className="card NewCard">
                         <img className="card-img-top" src={New3} alt="Card image cap"/>
-                        <div id="largeTitle" className="card-body">
+                        <div className="card-body">
                             <h5 className="card-title">¿POR QUÉ DEBO HACERME UNA PRUEBA GENÉTICA?</h5>
-                            <p className="card-text">Los test genéticos te permiten crear un plan personalizado en colaboración con tu médico para prevenir o detectar múltiples enfermedades de índole hereditario e infeccioso en un estudío temprano . . .</p>
+                            <p id="summary" className="card-text">Los test genéticos te permiten crear un plan personalizado en colaboración con tu médico para prevenir o detectar múltiples enfermedades de índole hereditario e infeccioso en un estudio temprano más facíl de tratar.</p>
                             <a href="/why">Seguir leyendo ></a>
                         </div>
                     </div>
@@ -102,17 +102,21 @@ function Main() {
 
                 <div id="MyContact" className="col-4">
 
-                    <div className="card-body contact text-center h-100">
+                    <div className="card-body contact text-center">
 
                         <h2 className="my-4 pb-2">CONTÁCTENOS</h2>
                         <ul className="text-lg-left list-unstyled ml-4">
                             <li>
                                 <FontAwesomeIcon icon={faMapMarkerAlt} className="item-align icon"/>
-                                <p className="item-align">CRA. 6 #72-34 ED. IMAT <br/>  MONTERIA - COLOMBIA</p>
+                                <p className="item-align">
+                                    CRA. 6 #72-34 ED. IMAT<br/>MONTERIA - COLOMBIA
+                                    <br/><br/>
+                                    CALLE 16 No. 15-42<br/>CONSULTORIO 303<br/>UD. MÉDICA SAN JOSE<br/>VALLEDUPAR - COLOMBIA
+                                </p>
                             </li>
                             <li>
                                 <FontAwesomeIcon icon={faPhone} className="item-align icon"/>
-                                <p className="item-align">+57 320 4744230</p>
+                                <p className="item-align">+57 320 5744230</p>
                             </li>
                             <li>
                                 <FontAwesomeIcon icon={faEnvelope} className="item-align icon"/>
